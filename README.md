@@ -27,5 +27,30 @@ A modern, responsive full-stack web application for online food ordering, featur
    npm start
    ```
 
+
+
+## 📁 Production Directory Structure
+
+```text
+📁 food-delivery-app/
+├── 📄 README.md
+├── 📁 config/
+│   └── 📄 settings.yaml
+├── 📄 requirements.txt
+├── 📁 src/
+│   ├── 📄 __init__.py
+│   └── 📄 config.py
+└── 📁 tests/
+    ├── 📄 __init__.py
+    └── 📄 test_smoke.py
+```
+
+## 🧪 Running Automated Tests
+
+To run the automated production test suite, execute:
+
+```bash
+pytest tests/  # or python -m unittest discover -s tests
+```
 ## 📝 License
 MIT License

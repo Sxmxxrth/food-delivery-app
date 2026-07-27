@@ -1,0 +1,4 @@
+# Production settings for food-delivery-app
+app_name: food-delivery-app
+version: 1.0.0
+environment: production
